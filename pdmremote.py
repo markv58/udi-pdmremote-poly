@@ -50,8 +50,15 @@ class Control(polyinterface.Controller):
                 LOGGER.info('PDM Remote {} Found. Adding to ISY.'.format(name))
                 self.addNode(HB6SpeedRemote(self, self.address, addr, name, remote, gpiopin))
 
+    def update_profile(self,command):
+        LOGGER.info('update_profile:')
+        st = self.poly.installprofile()
+        return st
+    
     id = 'PDMREMOTE'
-    commands = {'DISCOVER': discover}
+    commands = {'DISCOVER': discover,
+                'UPDATE_PROFILE': update_profile}
+    
     drivers = [{'driver': 'ST', 'value': 1, 'uom': 2}]
 
 
