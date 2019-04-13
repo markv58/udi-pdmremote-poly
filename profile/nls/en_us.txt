@@ -5,7 +5,7 @@ CMD-CTRL-DISCOVER-NAME = Re-Discover
 ST-CTRL-ST-NAME = Online
 
 # Harbor Breeze 6 speed fan remote node
-ND-HB6-NAME = Harbor Breeze 6 Speed Remote Control
+ND-HB6-NAME = HB 6 Speed Remote
 ND-HB6-ICON = GenericRsp
 
 ST-HB6-ST-NAME = Speed
