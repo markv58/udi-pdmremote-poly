@@ -9,6 +9,7 @@
             <sends />
             <accepts>
                 <cmd id="DISCOVER" />
+                <cmd id="UPDATE_PROFILE" />
             </accepts>
         </cmds>
     </nodeDef>
