@@ -6,7 +6,7 @@ CMD-CTRL-UPDATE_PROFILE-NAME = Update Profile
 ST-CTRL-ST-NAME = Online
 
 # Harbor Breeze 6 speed fan remote node
-ND-HB6-NAME = HB 6 Speed Remote
+ND-HB6-NAME = HB 6 Spd RC
 ND-HB6-ICON = GenericRsp
 
 ST-HB6-ST-NAME = Speed
