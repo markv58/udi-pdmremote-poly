@@ -2,6 +2,7 @@
 ND-PDMREMOTE-NAME = PDM Remote Control
 ND-PDMREMOTE-ICON = GenericRsp
 CMD-CTRL-DISCOVER-NAME = Re-Discover
+CMD-CTRL-UPDATE_PROFILE = Update Profile
 ST-CTRL-ST-NAME = Online
 
 # Harbor Breeze 6 speed fan remote node
