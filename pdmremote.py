@@ -11,7 +11,7 @@ from remotedb import harbor_breeze_6_speed_dc_remote_0 as hbremote
 LOGGER = polyinterface.LOGGER
 LOGGER.info('PDM Remote node server running on Python version {}'.format(sys.version_info))
 
-nodes_to_instantiate = [ ('00', 'HB6Spd Remote', hbremote, 17) ]
+nodes_to_instantiate = [ ('00', 'HB6SpdRemote', hbremote, 17) ]
 
 class Control(polyinterface.Controller):
     """ Polyglot Node Server Controller for PDM Type Remote Controls """
